@@ -1,0 +1,41 @@
+.test {
+    font-family: "Inter", sans-serif;
+}
+
+.main-body {
+    background-image: url("backing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.main-temp {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 10.1px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0%;
+}
+
+.location {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 10.1px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
